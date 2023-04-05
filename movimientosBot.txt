@@ -1,0 +1,152 @@
+//PRUEBA DE MOVIMIENTOS BÁSICOS PARA EL ROBOT
+
+int M1A1 = 23; //Motores izquierda delantero hacia adelante
+int M1A2 = 22; //Motores izquierda delantero hacia atrás
+int M2A1 = 25; //Motores derecha delantero hacia adelante
+int M2A2 = 24; //Motores derecha delantero hacia atrás
+int M1B1 = 27; //Motores izquierda trasero hacia adelante
+int M1B2 = 26; //Motores izquierda trasero hacia atrás
+int M2B1 = 29; //Motores derecha trasero hacia adelante
+int M2B2 = 28; //Motores derecha trasero hacia atrás
+
+char bt = 0;       //BT
+
+int vel = 255;
+
+int ENA1 = 9;
+int ENA2 = 12;
+int ENB1 = 7;
+int ENB2 = 4;
+
+void setup()
+{
+  Serial.begin(9600);
+
+  pinMode(M1A1, OUTPUT);
+  pinMode(M1A2, OUTPUT);
+  pinMode(M2A1, OUTPUT);
+  pinMode(M2A2, OUTPUT);
+  pinMode(M1B1, OUTPUT);
+  pinMode(M1B2, OUTPUT);
+  pinMode(M2B1, OUTPUT);
+  pinMode(M2B2, OUTPUT);
+  pinMode(ENA1, OUTPUT);
+  pinMode(ENA2, OUTPUT);
+  pinMode(ENB1, OUTPUT);
+  pinMode(ENB2, OUTPUT);
+}
+void loop()
+{
+
+  digitalWrite(ENA1, HIGH);
+  digitalWrite(ENA2, HIGH);
+  digitalWrite(ENB1, HIGH);
+  digitalWrite(ENB2, HIGH);
+
+  if (Serial.available() > 0) //guarda los datos entrantes en la variable 'bt'
+  {
+    bt = Serial.read();
+
+    if (bt == 'F'){     //avanzar
+      digitalWrite(M1A1, HIGH);
+      digitalWrite(M1A2, LOW);
+      digitalWrite(M2A1, HIGH);
+      digitalWrite(M2A2, LOW);
+      digitalWrite(M1B1, LOW);
+      digitalWrite(M1B2, LOW);
+      digitalWrite(M2B1, HIGH);
+      digitalWrite(M2B2, LOW);
+    }
+
+    else if (bt == 'B'){      //retroceder
+    
+      digitalWrite(M1A1, LOW);
+      digitalWrite(M1A2, HIGH);
+      digitalWrite(M2A1, LOW);
+      digitalWrite(M2A2, HIGH);
+      digitalWrite(M1B1, LOW);
+      digitalWrite(M1B2, HIGH);
+      digitalWrite(M2B1, LOW);
+      digitalWrite(M2B2, HIGH);
+    }
+
+    else if (bt == 'L'){      //giro izquierda
+      digitalWrite(M1A1, LOW);
+      digitalWrite(M1A2, HIGH);
+      digitalWrite(M2A1, LOW);
+      digitalWrite(M2A2, HIGH);
+      digitalWrite(M1B1, HIGH);
+      digitalWrite(M1B2, LOW);
+      digitalWrite(M2B1, HIGH);
+      digitalWrite(M2B2, LOW);
+    }
+
+        else if (bt == 'R'){      //giro derecha
+      digitalWrite(M1A1, HIGH);
+      digitalWrite(M1A2, LOW);
+      digitalWrite(M2A1, HIGH);
+      digitalWrite(M2A2, LOW);
+      digitalWrite(M1B1, LOW);
+      digitalWrite(M1B2, HIGH);
+      digitalWrite(M2B1, LOW);
+      digitalWrite(M2B2, HIGH);
+    }
+
+
+    else if (bt == 'G'){      //avanza izquierda
+      digitalWrite(M1A1, LOW);
+      digitalWrite(M1A2, LOW);
+      digitalWrite(M2A1, LOW);
+      digitalWrite(M2A2, LOW);
+      digitalWrite(M1B1, HIGH);
+      digitalWrite(M1B2, LOW);
+      digitalWrite(M2B1, HIGH);
+      digitalWrite(M2B2, LOW);
+    }
+
+        else if (bt == 'I'){      //avanza derecha
+      digitalWrite(M1A1, HIGH);
+      digitalWrite(M1A2, LOW);
+      digitalWrite(M2A1, HIGH);
+      digitalWrite(M2A2, LOW);
+      digitalWrite(M1B1, LOW);
+      digitalWrite(M1B2, LOW);
+      digitalWrite(M2B1, LOW);
+      digitalWrite(M2B2, LOW);
+    }
+
+      else if (bt == 'H'){      //retrocede izquierda
+      digitalWrite(M1A1, LOW);
+      digitalWrite(M1A2, LOW);
+      digitalWrite(M2A1, LOW);
+      digitalWrite(M2A2, LOW);
+      digitalWrite(M1B1, LOW);
+      digitalWrite(M1B2, HIGH);
+      digitalWrite(M2B1, LOW);
+      digitalWrite(M2B2, HIGH);
+    }
+
+        else if (bt == 'J'){      //retrocede derecha
+      digitalWrite(M1A1, LOW);
+      digitalWrite(M1A2, HIGH);
+      digitalWrite(M2A1, LOW);
+      digitalWrite(M2A2, HIGH);
+      digitalWrite(M1B1, LOW);
+      digitalWrite(M1B2, LOW);
+      digitalWrite(M2B1, LOW);
+      digitalWrite(M2B2, LOW);
+    }
+    
+    else if (bt == 'S'){      //parar
+      digitalWrite(M1A1, LOW);
+      digitalWrite(M1A2, LOW);
+      digitalWrite(M2A1, LOW);
+      digitalWrite(M2A2, LOW);
+      digitalWrite(M1B1, LOW);
+      digitalWrite(M1B2, LOW);
+      digitalWrite(M2B1, LOW);
+      digitalWrite(M2B2, LOW);
+    }
+
+  }
+}
