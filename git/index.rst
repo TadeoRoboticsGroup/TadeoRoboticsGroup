@@ -1,3 +1,4 @@
+.. _git_github:
 Introducción a Git
 ###############
 
