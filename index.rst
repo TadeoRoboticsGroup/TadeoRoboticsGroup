@@ -44,11 +44,12 @@ Aquí podrán aprender, experimentar y dar rienda suelta a su creatividad en el 
  
     Copyright 2023 Semillero Robótica Utadeo
 
+
 .. toctree::
    :titlesonly:
    :maxdepth: 1
    :hidden:
 
    git
-   micropython
    python
+   micropython
