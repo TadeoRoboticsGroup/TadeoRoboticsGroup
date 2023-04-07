@@ -46,4 +46,7 @@ Aquí podrán aprender, experimentar y dar rienda suelta a su creatividad en el 
 
 .. toctree::
   :hidden:
+  :glob:
+  git_github/index.rst
+  git_github/index.rst
   git_github/index.rst
