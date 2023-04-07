@@ -1,7 +1,7 @@
 .. _micropython:
 
-Raspberry Pi Pico con MicroPython
-=================================
+MicroPython
+===========
 
 
 En este tutorial se describen los pasos básicos para programar la placa Raspberry Pi Pico utilizando el lenguaje MicroPython y el entorno de desarrollo integrado Thonny.
@@ -45,16 +45,16 @@ Escribir y cargar un programa
 
 
 Ejemplos de Raspberry Pi Pico en MicroPython
-============================================
+********************************************
 
 En este documento se presentan algunos ejemplos de cómo utilizar la placa Raspberry Pi Pico con MicroPython.
 
 Salida y entradas de señales analógicas y digitales
----------------------------------------------------
+***************************************************
 
 Para encender y apagar un LED conectado a la placa Pico en el pin 25, puedes utilizar el siguiente código:
 
-.. code-block:: python
+.. code:: python
 
    from machine import Pin
    import utime
@@ -67,7 +67,7 @@ Para encender y apagar un LED conectado a la placa Pico en el pin 25, puedes uti
 
 Para leer el valor de un sensor analógico conectado a la placa Pico en el pin 26, puedes utilizar el siguiente código:
 
-.. code-block:: python
+.. code:: python
 
    from machine import ADC, Pin
 
@@ -75,11 +75,11 @@ Para leer el valor de un sensor analógico conectado a la placa Pico en el pin 2
    valor = adc.read_u16()
 
 Encender un LED con PWM
------------------------
+***********************
 
 Para encender un LED conectado a la placa Pico en el pin 25 utilizando la técnica de PWM, puedes utilizar el siguiente código:
 
-.. code-block:: python
+.. code:: python
 
    from machine import Pin, PWM
    import utime
@@ -92,11 +92,11 @@ Para encender un LED conectado a la placa Pico en el pin 25 utilizando la técni
            utime.sleep_ms(10)
 
 Conectar una pantalla 16x2 con módulo I2C
-------------------------------------------
+******************************************
 
 Para conectar una pantalla 16x2 con módulo I2C a la placa Pico, puedes utilizar el siguiente código:
 
-.. code-block:: python
+.. code:: python
 
    import machine
    import utime
@@ -113,11 +113,11 @@ Para conectar una pantalla 16x2 con módulo I2C a la placa Pico, puedes utilizar
    lcd.putstr("Raspberry Pi Pico")
 
 Controlar un servo motor
--------------------------
+*************************
 
 Para controlar un servo motor conectado a la placa Pico en el pin 18, puedes utilizar el siguiente código:
 
-.. code-block:: python
+.. code:: python
 
    import machine
    import utime
@@ -131,6 +131,6 @@ Para controlar un servo motor conectado a la placa Pico en el pin 18, puedes uti
 
 
 Conclusión
-----------
+**********
 
 Estos son solo algunos ejemplos de cómo utilizar la placa Raspberry Pi Pico con MicroPython. Esperamos que esta documentación te haya sido útil y que puedas utilizarla como base para crear tus propios proyectos. Si tienes alguna duda o consulta, no dudes en consultarlo en la comunidad o foro correspondiente. ¡Que tengas éxito en tus proyectos!
