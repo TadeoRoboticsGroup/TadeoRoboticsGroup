@@ -10,7 +10,7 @@ Configuración inicial
 
 Antes de comenzar a usar Git, es necesario realizar una configuración inicial. Primero, debes descargar e instalar Git en tu ordenador. Luego, deberás configurar tus credenciales de Git usando el siguiente comando:
 
-.. code-block:: bash
+.. code:: bash
 
     git config --global user.name "Tu nombre"
     git config --global user.email "Tu correo electrónico"
@@ -22,7 +22,7 @@ Creación de un repositorio
 
 Para comenzar a utilizar Git, primero necesitas crear un repositorio. Para hacerlo, debes navegar a la carpeta donde deseas crear el repositorio y ejecutar el siguiente comando:
 
-.. code-block:: bash
+.. code:: bash
 
     git init
 
@@ -33,7 +33,7 @@ Añadiendo archivos al repositorio
 
 Una vez que tienes un repositorio, puedes comenzar a agregar archivos. Para hacerlo, coloca los archivos en la carpeta del repositorio y ejecuta el siguiente comando:
 
-.. code-block:: bash
+.. code:: bash
 
     git add archivo
 
@@ -44,7 +44,7 @@ Confirmar los cambios
 
 Una vez que has agregado archivos al área de preparación, es necesario confirmar los cambios usando el siguiente comando:
 
-.. code-block:: bash
+.. code:: bash
 
     git commit -m "Mensaje de confirmación"
 
@@ -55,7 +55,7 @@ Visualizando el estado del repositorio
 
 Para visualizar el estado actual del repositorio y los cambios que se han realizado, usa el siguiente comando:
 
-.. code-block:: bash
+.. code:: bash
 
     git status
 
@@ -66,25 +66,25 @@ Trabajando con ramas
 
 Las ramas son una parte importante de Git, ya que permiten a los usuarios trabajar en diferentes versiones de un mismo proyecto al mismo tiempo. Para crear una nueva rama, usa el siguiente comando:
 
-.. code-block:: bash
+.. code:: bash
 
     git branch nueva-rama
 
 Este comando creará una nueva rama con el nombre "nueva-rama". Para cambiar a esta nueva rama, usa el siguiente comando:
 
-.. code-block:: bash
+.. code:: bash
 
     git checkout nueva-rama
 
 Para ver una lista de todas las ramas existentes en el repositorio, usa el siguiente comando:
 
-.. code-block:: bash
+.. code:: bash
 
     git branch
 
 Para fusionar dos ramas, primero debes cambiar a la rama en la que deseas fusionar las otras ramas. Luego, usa el siguiente comando:
 
-.. code-block:: bash
+.. code:: bash
 
     git merge otra-rama
 
@@ -92,7 +92,7 @@ Este comando fusionará la rama "otra-rama" con la rama actual.
 
 Para eliminar una rama, usa el siguiente comando:
 
-.. code-block:: bash
+.. code:: bash
 
     git branch -d rama-a-eliminar
 
@@ -103,13 +103,13 @@ Publicando cambios
 Para publicar los cambios realizados en un repositorio, es necesario subirlos a un servidor remoto. Para hacerlo, 
 primero debes agregar el servidor remoto usando el siguiente comando:
 
-.. code-block:: bash
+.. code:: bash
 
     git remote add origin <URL del servidor>
 
 Luego, sube los cambios usando el siguiente comando:
 
-.. code-block:: bash
+.. code:: bash
 
     git push origin <nombre de la rama>
 
@@ -120,7 +120,7 @@ Trabajando con repositorios remotos
 
 Para descargar un repositorio remoto a tu ordenador, usa el siguiente comando:
 
-.. code-block:: bash
+.. code:: bash
 
     git clone <URL del repositorio>
 
@@ -128,7 +128,7 @@ Este comando descargará el repositorio remoto en tu ordenador y creará una cop
 
 Para obtener cambios realizados en el repositorio remoto, usa el siguiente comando:
 
-.. code-block:: bash
+.. code:: bash
 
     git pull
 
