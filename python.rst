@@ -110,6 +110,7 @@ Crear una lista
     print(lista)
 
 Acceder a un elemento de la lista
+
 .. code:: python
     
     print(lista[1])
@@ -207,9 +208,9 @@ Ejemplo de diccionarios:
 
     Crear un diccionario
     diccionario = {
-    "marca": "Ford",
-    "modelo": "Mustang",
-    "año": 1964
+        "marca": "Ford",
+        "modelo": "Mustang",
+        "año": 1964
     }
 
 Imprimir el valor de un diccionario
@@ -239,11 +240,12 @@ Las funciones son bloques de código que se pueden llamar varias veces desde dif
 
 Ejemplo de funciones:
 
+Definir una función
+
 .. code:: python
 
-    Definir una función
     def saludo(nombre):
-    print("Hola, " + nombre)
+        print("Hola, " + nombre)
 
 Llamar a la función
 
@@ -313,31 +315,31 @@ Manejo de excepcione
 .. code:: python
 
     try:
-    resultado = 10 / 0
+        resultado = 10 / 0
     except ZeroDivisionError:
-    print("No se puede dividir entre cero")
+        print("No se puede dividir entre cero")
 
 Manejo de excepciones con else
 
 .. code:: python
 
     try:
-    resultado = 10 / 2
+        resultado = 10 / 2
     except ZeroDivisionError:
-    print("No se puede dividir entre cero")
+        print("No se puede dividir entre cero")
     else:
-    print("La división fue exitosa")
+        print("La división fue exitosa")
 
 Manejo de excepciones con finally
 
 .. code:: python
 
     try:
-    resultado = 10 / 0
+        resultado = 10 / 0
     except ZeroDivisionError:
-    print("No se puede dividir entre cero")
+        print("No se puede dividir entre cero")
     finally:
-    print("La ejecución se ha completado")
+        print("La ejecución se ha completado")
 
 Conclusiones
 Python es un lenguaje de programación popular debido a su facilidad de uso y su amplia gama de aplicaciones. 
