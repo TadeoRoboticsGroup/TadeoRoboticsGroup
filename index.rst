@@ -44,3 +44,7 @@ Aquí podrán aprender, experimentar y dar rienda suelta a su creatividad en el 
  
     Copyright 2023 Semillero Robótica Utadeo
 
+.. toctree::
+   :hidden:
+   
+   git/index.rst
