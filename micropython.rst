@@ -56,11 +56,16 @@ ___________________________________________________
 ejemplo 1: encender un led
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Para encender y apagar un LED conectado a la placa Pico en el pin 20, puedes utilizar el siguiente código:
+Este ejemplo describe cómo encender un LED que parpadea cada segundo utilizando una placa de desarrollo con 
+MicroPython y el siguiente circuito conectado al pin 20:
+
  .. figure:: ./img/circuitos/led_RPi.PNG
   :alt: visitors
   :height: 200
   :align: center
+
+Para este ejemplo, es necesario conectar el cátodo del LED al pin 20 de la placa y el ánodo del LED a tierra.
+Una vez que se ha establecido la conexión, se puede utilizar el siguiente código para hacer parpadear el LED:
 
 .. code:: python
 
@@ -72,6 +77,41 @@ Para encender y apagar un LED conectado a la placa Pico en el pin 20, puedes uti
    while True:
        led.toggle()
        utime.sleep(1)
+
+encuentra la simulación `aquí. <https://wokwi.com/projects/362662447039866881>`__
+
+
+
+ejemplo 2: lectura de boton
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Este ejemplo describe cómo leer el estado de un botón utilizando una placa de desarrollo con MicroPython y 
+el siguiente circuito conectado al pin 18:
+
+ .. figure:: ./img/circuitos/boton_RPi.PNG
+  :alt: visitors
+  :height: 200
+  :align: center
+
+Para este ejemplo, es necesario conectar el cátodo del LED al pin 20 de la placa y el ánodo del LED a tierra. 
+Una vez que se ha establecido la conexión, se puede utilizar el siguiente código para hacer parpadear el LED:
+
+.. code:: python
+
+   import machine
+
+   button = machine.Pin(18, machine.Pin.IN, machine.Pin.PULL_UP)
+
+   while True:
+      if button.value() == 0:
+         print("El botón está presionado")
+      else:
+         print("El botón está suelto")
+
+encuentra la simulación `aquí. <https://wokwi.com/projects/362665684610599937>`__
+
+
+
+ejemplo 3: lectura de un potenciometro 
 
 Para leer el valor de un sensor analógico conectado a la placa Pico en el pin 26, puedes utilizar el siguiente código:
 
