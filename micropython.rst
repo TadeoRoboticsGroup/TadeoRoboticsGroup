@@ -92,8 +92,9 @@ el siguiente circuito conectado al pin 18:
   :height: 200
   :align: center
 
-Para este ejemplo, es necesario conectar el cátodo del LED al pin 20 de la placa y el ánodo del LED a tierra. 
-Una vez que se ha establecido la conexión, se puede utilizar el siguiente código para hacer parpadear el LED:
+Para este ejemplo, es necesario conectar un extremo del botón al pin 18 de la placa y el otro extremo del
+botón a tierra. Una vez que se ha establecido la conexión, se puede utilizar el siguiente código para leer 
+el estado del botón:
 
 .. code:: python
 
