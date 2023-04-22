@@ -7,7 +7,7 @@ MicroPython
 En este tutorial se describen los pasos básicos para programar la placa Raspberry Pi Pico utilizando el lenguaje MicroPython y el entorno de desarrollo integrado Thonny.
 
 Requisitos
-**********
+----------
 
 Antes de comenzar, asegúrate de tener los siguientes elementos:
 
@@ -17,12 +17,12 @@ Antes de comenzar, asegúrate de tener los siguientes elementos:
 - El firmware de MicroPython para Raspberry Pi Pico (disponible en el sitio web oficial de Raspberry Pi)
 
 Conectar la placa
-******************
+_________________
 
 Conecta la placa Raspberry Pi Pico a tu computadora utilizando el cable micro-USB. 
 
 Configurar Thonny
-******************
+_________________
 
 1. Abre Thonny en tu computadora.
 2. Haz clic en `Tools` en la barra de menú y luego en `Options`.
@@ -31,7 +31,7 @@ Configurar Thonny
 5. Haz clic en `OK` para guardar la configuración.
 
 Escribir y cargar un programa
-*****************************
+_____________________________
 
 1. En Thonny, haz clic en `File` en la barra de menú y luego en `New`.
 2. Escribe el código de tu programa en el editor de Thonny.
@@ -45,21 +45,29 @@ Escribir y cargar un programa
 
 
 Ejemplos de Raspberry Pi Pico en MicroPython
-********************************************
+____________________________________________
 
 En este documento se presentan algunos ejemplos de cómo utilizar la placa Raspberry Pi Pico con MicroPython.
 
-Salida y entradas de señales analógicas y digitales
-***************************************************
 
-Para encender y apagar un LED conectado a la placa Pico en el pin 25, puedes utilizar el siguiente código:
+Salida y entradas de señales analógicas y digitales
+___________________________________________________
+
+ejemplo 1: encender un led
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Para encender y apagar un LED conectado a la placa Pico en el pin 20, puedes utilizar el siguiente código:
+ .. figure:: ./img/circuitos/led_RPi.PNG
+  :alt: visitors
+  :height: 200
+  :align: center
 
 .. code:: python
 
    from machine import Pin
    import utime
 
-   led = Pin(25, Pin.OUT)
+   led = Pin(20, Pin.OUT)
 
    while True:
        led.toggle()

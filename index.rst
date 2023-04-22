@@ -1,7 +1,7 @@
 .. figure::  https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&color=%2338C2FF&size=50&center=true&vCenter=true&height=70&width=950&lines=¡La+revolución+robótica+comienza+aquí!
 
 ¡Bienvenidos al semillero de robótica! (💻💖☕)
--------------------------------------------------
+==================================================
 
 .. figure:: https://readme-typing-svg.herokuapp.com?font=comfortaa&color=016EEA&size=24&width=600&lines=Diseñar+Desarrollar+Construir+Programar;Investigar+Optimizar+Simular+Modelar
 
