@@ -184,7 +184,7 @@ encuentra la simulación `aquí. <https://wokwi.com/projects/362930680085257217>
 
 
 Controlar un servo motor
-*************************
+________________________
 
 Para controlar un servo motor conectado a la placa Pico en el pin 22 para controlar su posición mediante MicroPython.
 
