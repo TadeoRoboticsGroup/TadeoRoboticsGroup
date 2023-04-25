@@ -60,7 +60,7 @@ Este ejemplo describe cómo encender un LED que parpadea cada segundo utilizando
 MicroPython y el siguiente circuito conectado al pin 20:
 
  .. figure:: ./img/circuitos/led_RPi.PNG
-  :alt: visitors
+  :alt: RPi_pico
   :height: 200
   :align: center
 
@@ -88,7 +88,7 @@ Este ejemplo describe cómo leer el estado de un botón utilizando una placa de 
 el siguiente circuito conectado al pin 18:
 
  .. figure:: ./img/circuitos/boton_RPi.PNG
-  :alt: visitors
+  :alt: RPi_pico
   :height: 200
   :align: center
 
@@ -123,7 +123,7 @@ ejemplo 3: lectura de una señal anloga ADC
 Para leer el valor de un sensor analógico conectado a la placa Pico en el pin 26 como se ve en el circuito:
 
  .. figure:: ./img/circuitos/analog_RPi.PNG
-  :alt: visitors
+  :alt: RPi_pico
   :height: 200
   :align: center
 
@@ -154,7 +154,7 @@ ___________
 Para el control de una señal PWM vamos necesitamos conectar un led con una resistencia al pin 18 de la placa como en el siguiente circuito:
 
  .. figure:: ./img/circuitos/pwm_RPi.PNG
-  :alt: visitors
+  :alt: RPi_pico
   :height: 200
   :align: center
 
@@ -215,7 +215,7 @@ Controlar un servo motor
 Para controlar un servo motor conectado a la placa Pico en el pin 22 para controlar su posición mediante MicroPython.
 
  .. figure:: ./img/circuitos/servo_RPi.PNG
-  :alt: visitors
+  :alt: RPi_pico
   :height: 200
   :align: center
 
@@ -226,12 +226,18 @@ negativo al pin de tierra. El código necesario para establecer la posición del
 
    import machine
    import utime
-   from servo import Servo
 
-   servo = Servo(machine.Pin(18))
-   servo.angle(90)
-   utime.sleep(2)
-   servo.angle(0)
+   servo_pin = machine.Pin(22, machine.Pin.OUT)
+   servo_pwm = machine.PWM(servo_pin, freq=50)
+
+   def set_servo_angle(angle):
+      duty = int((angle / 180) * 65000) + 2500
+      servo_pwm.duty_u16(duty)
+
+   while True:
+      for angle in range(0, 181, 10):
+         set_servo_angle(angle)
+         utime.sleep_ms(100)
 
 encuentra la simulación `aquí. <https://wokwi.com/projects/362939249855076353>`__
 
