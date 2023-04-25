@@ -183,6 +183,8 @@ despues podemos varia la salida de coltaje de la placa utilizando el siguiente c
 encuentra la simulación `aquí. <https://wokwi.com/projects/362930680085257217>`__
 
 
+
+
 Conectar una pantalla 16x2 con módulo I2C
 ******************************************
 
@@ -204,10 +206,21 @@ Para conectar una pantalla 16x2 con módulo I2C a la placa Pico, puedes utilizar
    lcd.clear()
    lcd.putstr("Raspberry Pi Pico")
 
+
+
+
 Controlar un servo motor
 *************************
 
-Para controlar un servo motor conectado a la placa Pico en el pin 18, puedes utilizar el siguiente código:
+Para controlar un servo motor conectado a la placa Pico en el pin 22 para controlar su posición mediante MicroPython.
+
+ .. figure:: ./img/circuitos/servo_RPi.PNG
+  :alt: visitors
+  :height: 200
+  :align: center
+
+El circuito consiste en conectar la señal del servomotor al pin 22 de la placa, el pin positivo al pin de 5V y el pin 
+negativo al pin de tierra. El código necesario para establecer la posición del servomotor en un ángulo específico es el siguiente:
 
 .. code:: python
 
@@ -219,6 +232,8 @@ Para controlar un servo motor conectado a la placa Pico en el pin 18, puedes uti
    servo.angle(90)
    utime.sleep(2)
    servo.angle(0)
+
+encuentra la simulación `aquí. <https://wokwi.com/projects/362939249855076353>`__
 
 
 
