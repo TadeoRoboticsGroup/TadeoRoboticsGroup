@@ -44,8 +44,9 @@ _____________________________
 
 
 !A programar!
-------------
+-------------
 
+continúa aprendiendo aquí
 
 .. toctree::
    :titlesonly:
