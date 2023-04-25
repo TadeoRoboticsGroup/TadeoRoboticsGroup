@@ -241,11 +241,11 @@ encuentra la simulación `aquí. <https://wokwi.com/projects/362939249855076353>
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    microcontroladores/micropython_arduino
    microcontroladores/micropython_esp32
-   
+
 Conclusión
 **********
 

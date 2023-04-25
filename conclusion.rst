@@ -1,7 +1,7 @@
 .. _git:
 
-Introducción a Git
-------------------
+Gracias por visitar el semillero de robótica
+============================================
 
 **🎵 programmer music**
 	
