@@ -239,9 +239,9 @@ encuentra la simulación `aquí. <https://wokwi.com/projects/362939249855076353>
    lcd.putstr("Raspberry Pi Pico")
 
 
-
 .. toctree::
-   :maxdepth: 3
+   :hidden:
+   :glob:
 
    microcontroladores/micropython_arduino
    microcontroladores/micropython_esp32
