@@ -20,25 +20,6 @@ Aquí podrán aprender, experimentar y dar rienda suelta a su creatividad en el 
 - 👨‍🏫 👩‍🎓👨‍🎓 Formar y guiar a estudiantes de pregrado y posgrado en la investigación y el desarrollo de proyectos de robótica avanzada.
  
 
-
-Aprende sobre:
---------------
-
-* :doc:`git <git>`
-
-  - En Git se puede aprender lo básico para controlar versiones de código, crear ramas, colaborar 
-  con otros desarrolladores, y manejar repositorios locales y remotos.
-
-* :doc:`python <python>`
-
-  - Aprende Python con ejemplos prácticos, ejercicios resueltos y recursos útiles para principiantes.
-
-
-* :doc:`micropython <micropython>`
-
-  - Aprender MicroPython, como tutoriales, ejemplos prácticos, proyectos completos, y recomendaciones de 
-  herramientas y recursos útiles para principiantes en el desarrollo de proyectos con MicroPython.
-
 .. toctree::
    :titlesonly:
    :maxdepth: 1
