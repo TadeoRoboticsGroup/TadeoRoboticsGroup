@@ -52,5 +52,6 @@ _____________________________
    :maxdepth: 2
    :hidden:
 
+   micropython/micropython_raspberrypico
    micropython/micropython_arduino
    micropython/micropython_esp32
