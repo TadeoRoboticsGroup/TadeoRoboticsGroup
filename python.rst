@@ -341,12 +341,7 @@ Manejo de excepciones con finally
     finally:
         print("La ejecución se ha completado")
 
-.. toctree::
-   :hidden:
-   :glob:
 
-   micropython/miropython_arduino
-   
 Conclusiones
 Python es un lenguaje de programación popular debido a su facilidad de uso y su amplia gama de aplicaciones. 
 En este documento se han cubierto algunos de los conceptos básicos de Python, como variables, comentarios, 
