@@ -41,7 +41,7 @@ Aprende sobre:
 
 .. toctree::
    :titlesonly:
-   :maxdepth: 1
+   :maxdepth: 2
    :hidden:
    git
    python
