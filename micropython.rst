@@ -4,6 +4,7 @@ MicroPython
 ===========
 
 
+   
 En este tutorial se describen los pasos básicos para programar la placa Raspberry Pi Pico utilizando el lenguaje MicroPython y el entorno de desarrollo integrado Thonny.
 
 Requisitos
@@ -59,7 +60,7 @@ ejemplo 1: encender un led
 Este ejemplo describe cómo encender un LED que parpadea cada segundo utilizando una placa de desarrollo con 
 MicroPython y el siguiente circuito conectado al pin 20:
 
- .. figure:: ../img/circuitos/led_RPi.PNG
+ .. figure:: ./img/circuitos/led_RPi.PNG
   :alt: RPi_pico
   :height: 200
   :align: center
@@ -87,7 +88,7 @@ ejemplo 2: lectura de boton
 Este ejemplo describe cómo leer el estado de un botón utilizando una placa de desarrollo con MicroPython y 
 el siguiente circuito conectado al pin 18:
 
- .. figure:: ../img/circuitos/boton_RPi.PNG
+ .. figure:: ./img/circuitos/boton_RPi.PNG
   :alt: RPi_pico
   :height: 200
   :align: center
@@ -122,7 +123,7 @@ ejemplo 3: lectura de una señal anloga ADC
 
 Para leer el valor de un sensor analógico conectado a la placa Pico en el pin 26 como se ve en el circuito:
 
- .. figure:: ../img/circuitos/analog_RPi.PNG
+ .. figure:: ./img/circuitos/analog_RPi.PNG
   :alt: RPi_pico
   :height: 200
   :align: center
@@ -153,7 +154,7 @@ ___________
 
 Para el control de una señal PWM vamos necesitamos conectar un led con una resistencia al pin 18 de la placa como en el siguiente circuito:
 
- .. figure:: ../img/circuitos/pwm_RPi.PNG
+ .. figure:: ./img/circuitos/pwm_RPi.PNG
   :alt: RPi_pico
   :height: 200
   :align: center
@@ -188,7 +189,7 @@ ________________________
 
 Para controlar un servo motor conectado a la placa Pico en el pin 22 para controlar su posición mediante MicroPython.
 
- .. figure:: ../img/circuitos/servo_RPi.PNG
+ .. figure:: ./img/circuitos/servo_RPi.PNG
   :alt: RPi_pico
   :height: 200
   :align: center
@@ -238,6 +239,13 @@ encuentra la simulación `aquí. <https://wokwi.com/projects/362939249855076353>
    lcd.putstr("Raspberry Pi Pico")
 
 
+
+.. toctree::
+   :maxdepth: 2
+
+   microcontroladores/micropython_arduino
+   microcontroladores/micropython_esp32
+   
 Conclusión
 **********
 

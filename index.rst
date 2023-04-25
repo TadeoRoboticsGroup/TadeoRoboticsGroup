@@ -20,36 +20,30 @@ Aquí podrán aprender, experimentar y dar rienda suelta a su creatividad en el 
 - 👨‍🏫 👩‍🎓👨‍🎓 Formar y guiar a estudiantes de pregrado y posgrado en la investigación y el desarrollo de proyectos de robótica avanzada.
  
 
-**🎵 programmer music**
-	
-.. figure:: https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif
-  :width: 90
-  :align: center
-  :target: https://musicforprogramming.net/one
 
-  https://musicforprogramming.net/one
+Aprende sobre:
+--------------
 
-**🍀 Sponsors and Supporters**
+* :doc:`git <git>`
 
-.. figure:: https://img.shields.io/badge/Buymeacoffee-%23FFDD00.svg?&style=for-the-badge&logo=buy-me-a-coffee&logoColor=black
-    :align: center
+  - En Git se puede aprender lo básico para controlar versiones de código, crear ramas, colaborar 
+  con otros desarrolladores, y manejar repositorios locales y remotos.
+
+* :doc:`python <python>`
+
+  - Aprende Python con ejemplos prácticos, ejercicios resueltos y recursos útiles para principiantes.
 
 
-    
-    **¡Hey tú!** Si te ha gustado lo que hacemos `invitanos un café <https://bmc.xyz>`__ ,  Sería una forma genial de apoyarnos y seguir adelante con nuestros proyectos.
+* :doc:`micropython <micropython>`
 
-	
-
-    😍 Muchas gracias por visitar el semillero, que tengas lindo día! 😉
- 
-    Copyright 2023 Semillero Robótica Utadeo
-
+  - Aprender MicroPython, como tutoriales, ejemplos prácticos, proyectos completos, y recomendaciones de 
+  herramientas y recursos útiles para principiantes en el desarrollo de proyectos con MicroPython.
 
 .. toctree::
    :titlesonly:
    :maxdepth: 1
    :hidden:
-   arduino
    git
    python
    micropython
+   Conclusion
