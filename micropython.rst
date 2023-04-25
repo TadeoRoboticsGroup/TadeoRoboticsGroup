@@ -183,32 +183,6 @@ despues podemos varia la salida de coltaje de la placa utilizando el siguiente c
 encuentra la simulación `aquí. <https://wokwi.com/projects/362930680085257217>`__
 
 
-
-
-Conectar una pantalla 16x2 con módulo I2C
-******************************************
-
-Para conectar una pantalla 16x2 con módulo I2C a la placa Pico, puedes utilizar el siguiente código:
-
-.. code:: python
-
-   import machine
-   import utime
-   from lcd_api import LcdApi
-   from pico_i2c_lcd import I2cLcd
-   
-   i2c = machine.I2C(0, sda=machine.Pin(0), scl=machine.Pin(1), freq=400000)
-   lcd_api = LcdApi(16, 2)
-   lcd = I2cLcd(i2c, 0x27, lcd_api)
-   
-   lcd.putstr("Hola, mundo!")
-   utime.sleep(2)
-   lcd.clear()
-   lcd.putstr("Raspberry Pi Pico")
-
-
-
-
 Controlar un servo motor
 *************************
 
@@ -241,6 +215,27 @@ negativo al pin de tierra. El código necesario para establecer la posición del
 
 encuentra la simulación `aquí. <https://wokwi.com/projects/362939249855076353>`__
 
+
+.. Conectar una pantalla 16x2 con módulo I2C
+******************************************
+
+.. Para conectar una pantalla 16x2 con módulo I2C a la placa Pico, puedes utilizar el siguiente código:
+
+..  code:: python
+
+..   import machine
+   import utime
+   from lcd_api import LcdApi
+   from pico_i2c_lcd import I2cLcd
+   
+..   i2c = machine.I2C(0, sda=machine.Pin(0), scl=machine.Pin(1), freq=400000)
+   lcd_api = LcdApi(16, 2)
+   lcd = I2cLcd(i2c, 0x27, lcd_api)
+   
+..   lcd.putstr("Hola, mundo!")
+   utime.sleep(2)
+   lcd.clear()
+   lcd.putstr("Raspberry Pi Pico")
 
 
 Conclusión
