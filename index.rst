@@ -25,7 +25,6 @@ Aquí podrán aprender, experimentar y dar rienda suelta a su creatividad en el 
    :maxdepth: 1
    :hidden:
 
-   index
    git
    python
    micropython

@@ -1,7 +1,7 @@
 .. _git:
 
-Gracias por visitar el semillero de robótica
-============================================
+¡Gracias por tu visita!
+=======================
 
 **🎵 programmer music**
 	
