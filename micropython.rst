@@ -243,4 +243,6 @@ encuentra la simulación `aquí. <https://wokwi.com/projects/362939249855076353>
 Conclusión
 **********
 
-Estos son solo algunos ejemplos de cómo utilizar la placa Raspberry Pi Pico con MicroPython. Esperamos que esta documentación te haya sido útil y que puedas utilizarla como base para crear tus propios proyectos. Si tienes alguna duda o consulta, no dudes en consultarlo en la comunidad o foro correspondiente. ¡Que tengas éxito en tus proyectos!
+Estos son solo algunos ejemplos de cómo utilizar la placa Raspberry Pi Pico con MicroPython. Esperamos que esta documentación te haya 
+sido útil y que puedas utilizarla como base para crear tus propios proyectos. Si tienes alguna duda o consulta, no dudes en consultarlo 
+en la comunidad o foro correspondiente. ¡Que tengas éxito en tus proyectos!
