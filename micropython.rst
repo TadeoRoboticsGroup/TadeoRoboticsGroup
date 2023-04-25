@@ -243,8 +243,8 @@ encuentra la simulación `aquí. <https://wokwi.com/projects/362939249855076353>
    :hidden:
    :glob:
 
-   microcontroladores/micropython_arduino
-   microcontroladores/micropython_esp32
+   micropython/micropython_arduino
+   micropython/micropython_esp32
 
 Conclusión
 **********
