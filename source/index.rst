@@ -49,7 +49,7 @@ Aquí podrán aprender, experimentar y dar rienda suelta a su creatividad en el 
    :titlesonly:
    :maxdepth: 1
    :hidden:
-
+   arduino
    git
    python
    micropython
