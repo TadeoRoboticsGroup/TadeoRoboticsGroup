@@ -240,8 +240,9 @@ encuentra la simulación `aquí. <https://wokwi.com/projects/362939249855076353>
 
 
 .. toctree::
+   :titlesonly:
+   :maxdepth: 2
    :hidden:
-   :glob:
 
    micropython/micropython_arduino
    micropython/micropython_esp32
