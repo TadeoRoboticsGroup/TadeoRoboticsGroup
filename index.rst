@@ -5,6 +5,11 @@
 
 .. figure:: https://readme-typing-svg.herokuapp.com?font=comfortaa&color=016EEA&size=24&width=600&lines=Diseñar+Desarrollar+Construir+Programar;Investigar+Optimizar+Simular+Modelar
 
+.. figure:: ./img/semillero/semillero.png
+  :alt: semillero
+  :height: 200
+  :align: center
+
 Aquí podrán aprender, experimentar y dar rienda suelta a su creatividad en el emocionante mundo de la robótica.
 
 
@@ -28,4 +33,5 @@ Aquí podrán aprender, experimentar y dar rienda suelta a su creatividad en el 
    git
    python
    micropython
+   ros
    conclusion

@@ -50,7 +50,7 @@ continúa aprendiendo aquí
 
 .. toctree::
    :titlesonly:
-   :maxdepth: 2
+   :maxdepth: 
    :hidden:
 
    micropython/micropython_raspberrypico
