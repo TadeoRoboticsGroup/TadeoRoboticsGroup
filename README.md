@@ -3,6 +3,12 @@
 
 # ¡Bienvenidos al semillero de robótica! (💻💖☕)
 
+<div id="header" align="center">
+<img src="/img/semillero/background.png" width="250"/>
+	
+	
+</div>
+
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=comfortaa&color=016EEA&size=24&width=600&lines=Diseñar+Desarrollar+Construir+Programar;Investigar+Optimizar+Simular+Modelar)](https://git.io/typing-svg)
 
