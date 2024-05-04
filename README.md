@@ -18,7 +18,6 @@
 <img src="/img/semillero/teleoperado.gif" width="100"/>
 </div>
 
-<a href="#"><img src="/img/semillero/background.png" width="100" align="right"  alt="robot siro"/></a>
 
 ᴀQᴜÍ ᴘᴏᴅʀÁɴ ᴀᴘʀᴇɴᴅᴇʀ, ᴇxᴘᴇʀɪᴍᴇɴᴛᴀʀ ʏ ᴅᴀʀ ʀɪᴇɴᴅᴀ ꜱᴜᴇʟᴛᴀ ᴀ ꜱᴜ ᴄʀᴇᴀᴛɪᴠɪᴅᴀᴅ ᴇɴ ᴇʟ ᴇᴍᴏᴄɪᴏɴᴀɴᴛᴇ ᴍᴜɴᴅᴏ ᴅᴇ ʟᴀ ʀᴏʙÓᴛɪᴄᴀ. 💻💖☕
 
@@ -62,12 +61,12 @@
 ## ᴇQᴜɪᴘᴏ ᴅᴇ ʀᴏʙᴏᴛɪꜱᴛᴀꜱ 🤝
 <img src="/img/semillero/team2.jpg" width="340"/>
 
-## 🍀 TOMEMOS UN CAFÉ
+## 🍀 ɪɴᴠɪᴛᴀɴᴏꜱ ᴀ ᴜɴ ᴄᴀꜰÉ ʏ ʜᴀʙʟᴇᴍᴏꜱ ᴅᴇ ʀᴏʙᴏᴛꜱ ☕
 
 [![BuyMeaCoffee](https://img.shields.io/badge/Buymeacoffee-%23FFDD00.svg?&style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoff.ee)
 
 
-**¡ʜᴇʏ ᴛÚ!** ꜱɪ ᴛᴇ ʜᴀ ɢᴜꜱᴛᴀᴅᴏ ʟᴏ Qᴜᴇ ʜᴀᴄᴇᴍᴏꜱ [ɪɴᴠɪᴛᴀɴᴏꜱ ᴜɴ ᴄᴀꜰÉ](ʜᴛᴛᴘꜱ://ʙᴍᴄ.xʏᴢ),  ꜱᴇʀÍᴀ ᴜɴᴀ ꜰᴏʀᴍᴀ ɢᴇɴɪᴀʟ ᴅᴇ ᴀᴘᴏʏᴀʀɴᴏꜱ ʏ ꜱᴇɢᴜɪʀ ᴀᴅᴇʟᴀɴᴛᴇ ᴄᴏɴ ɴᴜᴇꜱᴛʀᴏꜱ ᴘʀᴏʏᴇᴄᴛᴏꜱ.
+**¡ʜᴇʏ ᴛÚ!** ꜱɪ ᴛᴇ ʜᴀ ɢᴜꜱᴛᴀᴅᴏ ʟᴏ Qᴜᴇ ʜᴀᴄᴇᴍᴏꜱ [ɪɴᴠɪᴛᴀɴᴏꜱ ᴜɴ ᴄᴀꜰÉ](ʜᴛᴛᴘꜱ://ʙᴍᴄ.xʏᴢ), ꜱᴇʀÍᴀ ᴜɴᴀ ꜰᴏʀᴍᴀ ɢᴇɴɪᴀʟ ᴅᴇ ᴀᴘᴏʏᴀʀɴᴏꜱ ʏ ꜱᴇɢᴜɪʀ ᴀᴅᴇʟᴀɴᴛᴇ ᴄᴏɴ ɴᴜᴇꜱᴛʀᴏꜱ ᴘʀᴏʏᴇᴄᴛᴏꜱ.
 
 ---
 	
