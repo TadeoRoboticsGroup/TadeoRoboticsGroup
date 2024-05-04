@@ -1,10 +1,8 @@
 <div align="center">
 
-
-# ¡​ʙɪᴇɴᴠᴇɴɪᴅᴏꜱ ᴀʟ ꜱᴇᴍɪʟʟᴇʀᴏ ᴅᴇ ʀᴏʙÓᴛɪᴄᴀ❗ (💻💖🤖🎉)
-
 <img src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&color=%2338C2FF&size=50&center=true&vCenter=true&height=70&width=950&lines=¡La+revolución+robótica+comienza+aquí!" alt="Title"></img>
 
+# ¡​ʙɪᴇɴᴠᴇɴɪᴅᴏꜱ ᴀʟ ꜱᴇᴍɪʟʟᴇʀᴏ ᴅᴇ ʀᴏʙÓᴛɪᴄᴀ❗ (💻💖🤖🎉)
 
 <img src="/img/semillero/background.png" width="300"/>
 	
