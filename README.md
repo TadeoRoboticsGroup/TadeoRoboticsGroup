@@ -61,7 +61,13 @@
 <img src="/img/semillero/teleoperado.gif" width="150"/>
 </div-->
 
-<a href="#"><img src="/img/semillero/siro.gif" width="250" align="right"  alt="Mario David Alvarez Vallejo"/></a>
+<a href="#"><img src="/img/semillero/siro.gif" width="100" align="right"  alt="robot siro"/></a>
+
+<a href="#"><img src="/img/semillero/teleoperado.gif" width="100" align="right"  alt="robot siro"/></a>
+
+<a href="#"><img src="/img/semillero/carrera.gif" width="100" align="right"  alt="robot siro"/></a>
+
+<a href="#"><img src="/img/semillero/teleoperado.gif" width="100" align="right"  alt="robot siro"/></a>
 
 - **ᴛᴀʟʟᴇʀᴇꜱ ᴅᴇ ᴄᴏɴꜱᴛʀᴜᴄᴄɪÓɴ ᴅᴇ ʀᴏʙᴏᴛꜱ**: 🤖🔧 ᴏʀɢᴀɴɪᴢᴀʀᴇᴍᴏꜱ ᴛᴀʟʟᴇʀᴇꜱ ᴅᴏɴᴅᴇ ʟᴏꜱ ᴘᴀʀᴛɪᴄɪᴘᴀɴᴛᴇꜱ ᴀᴘʀᴇɴᴅᴇʀÁɴ ᴀ ᴄᴏɴꜱᴛʀᴜɪʀ ʀᴏʙᴏᴛꜱ ᴜᴛɪʟɪᴢᴀɴᴅᴏ ᴋɪᴛꜱ ᴅᴇ ʀᴏʙÓᴛɪᴄᴀ, ᴍᴀᴛᴇʀɪᴀʟᴇꜱ ꜱɪᴍᴘʟᴇꜱ ᴏ ᴘɪᴇᴢᴀꜱ ʀᴇᴄɪᴄʟᴀᴅᴀꜱ ᴅᴇ ᴊᴜɢᴜᴇᴛᴇꜱ.
   
