@@ -1,15 +1,17 @@
-<div align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&color=%2338C2FF&size=50&center=true&vCenter=true&height=70&width=950&lines=¡La+revolución+robótica+comienza+aquí!" alt="Title"></img></div>
+<div align="center">
 
 
-# ¡​🇧​​🇮​​🇪​​🇳​​🇻​​🇪​​🇳​​🇮​​🇩​​🇴​​🇸​ ​🇦​​🇱​ ​🇸​​🇪​​🇲​​🇮​​🇱​​🇱​​🇪​​🇷​​🇴​ ​🇩​​🇪​ ​🇷​​🇴​​🇧​ó​🇹​​🇮​​🇨​​🇦​❗ (💻💖☕)
+# ¡​ʙɪᴇɴᴠᴇɴɪᴅᴏꜱ ᴀʟ ꜱᴇᴍɪʟʟᴇʀᴏ ᴅᴇ ʀᴏʙÓᴛɪᴄᴀ❗ (💻💖🤖🎉)
 
-<div id="header" align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&color=%2338C2FF&size=50&center=true&vCenter=true&height=70&width=950&lines=¡La+revolución+robótica+comienza+aquí!" alt="Title"></img>
+
+
 <img src="/img/semillero/background.png" width="300"/>
 	
 	
 </div>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=comfortaa&color=016EEA&size=24&width=600&lines=Diseñar+Desarrollar+Construir+Programar;Investigar+Optimizar+Simular+Modelar)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=comfortaa&color=016EEA&size=22&width=600&lines=Diseñar🎨+Desarrollar🛠️+Construir🏗️+Programar💻;Investigar🔍+Optimizar📈+Simular🔄+Modelar🏭)](https://git.io/typing-svg)
 
 <div align="center">
 <img src="/img/semillero/siro.gif" width="100"/>
@@ -59,22 +61,23 @@
 
 <div align="center">
 
-## 🍀 ​🇸​​🇵​​🇴​​🇳​​🇸​​🇴​​🇷​​🇸​ ​🇦​​🇳​​🇩​ ​🇸​​🇺​​🇵​​🇵​​🇴​​🇷​​🇹​​🇪​​🇷​​🇸​
+## ᴇQᴜɪᴘᴏ ᴅᴇ ʀᴏʙᴏᴛɪꜱᴛᴀꜱ 🤝
+<img src="/img/semillero/team2.jpg" width="340"/>
+
+## 🍀 TOMEMOS UN CAFÉ
 
 [![BuyMeaCoffee](https://img.shields.io/badge/Buymeacoffee-%23FFDD00.svg?&style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoff.ee)
 
 
 **¡ʜᴇʏ ᴛÚ!** ꜱɪ ᴛᴇ ʜᴀ ɢᴜꜱᴛᴀᴅᴏ ʟᴏ Qᴜᴇ ʜᴀᴄᴇᴍᴏꜱ [ɪɴᴠɪᴛᴀɴᴏꜱ ᴜɴ ᴄᴀꜰÉ](ʜᴛᴛᴘꜱ://ʙᴍᴄ.xʏᴢ),  ꜱᴇʀÍᴀ ᴜɴᴀ ꜰᴏʀᴍᴀ ɢᴇɴɪᴀʟ ᴅᴇ ᴀᴘᴏʏᴀʀɴᴏꜱ ʏ ꜱᴇɢᴜɪʀ ᴀᴅᴇʟᴀɴᴛᴇ ᴄᴏɴ ɴᴜᴇꜱᴛʀᴏꜱ ᴘʀᴏʏᴇᴄᴛᴏꜱ.
 
-
 ---
 	
 
-	
 <br>
- 😍 ​🇲​​🇺​​🇨​​🇭​​🇦​​🇸​ ​🇬​​🇷​​🇦​​🇨​​🇮​​🇦​​🇸​ ​🇵​​🇴​​🇷​ ​🇻​​🇮​​🇸​​🇮​​🇹​​🇦​​🇷​ ​🇪​​🇱​ ​🇸​​🇪​​🇲​​🇮​​🇱​​🇱​​🇪​​🇷​​🇴​, ​🇶​​🇺​​🇪​ ​🇹​​🇪​​🇳​​🇬​​🇦​​🇸​ ​🇱​​🇮​​🇳​​🇩​​🇴​ ​🇩​í​🇦​❗ 😉
+ 😍 ​ᴍᴜᴄʜᴀꜱ ɢʀᴀᴄɪᴀꜱ ᴘᴏʀ ᴠɪꜱɪᴛᴀʀ ᴇʟ ꜱᴇᴍɪʟʟᴇʀᴏ, Qᴜᴇ ᴛᴇɴɢᴀꜱ ʟɪɴᴅᴏ ᴅÍᴀ​❗ 😉
   <br/>  
-  &copy; 2023 ​🇸​​🇪​​🇲​​🇮​​🇱​​🇱​​🇪​​🇷​​🇴​ ​🇷​​🇴​​🇧​ó​🇹​​🇮​​🇨​​🇦​ ​🇺​​🇹​​🇦​​🇩​​🇪​​🇴​
+  &copy; 2023 ꜱᴇᴍɪʟʟᴇʀᴏ ᴅᴇ ʀᴏʙÓᴛɪᴄᴀ ᴜᴛᴀᴅᴇᴏ
 </div>
  
 <!-- 
