@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semillero de Robótica</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #0078D4;
+            --secondary-color: #2C2C2C;
+            --accent-color: #00B294;
+            --background-color: #F5F5F5;
+            --text-color: #333333;
+            --card-background: #FFFFFF;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            display: flex;
+            list-style-type: none;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.3s ease;
+        }
+
+        nav a:hover {
+            opacity: 0.8;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            color: white;
+            text-align: center;
+            padding: 150px 0 100px;
+            margin-bottom: 4rem;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            font-weight: 300;
+        }
+
+        .hero-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-top: 2rem;
+        }
+
+        section {
+            margin: 4rem 0;
+            padding: 2rem;
+            background-color: var(--card-background);
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            color: var(--secondary-color);
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .grid {
+            display: grid;
+            gap: 2rem;
+            justify-content: center;
+        }
+
+        .grid-2 {
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+
+        .grid-4 {
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        }
+
+        .card {
+            background-color: var(--card-background);
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+
+        .card h3 {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+
+        .tech-item {
+            text-align: center;
+        }
+
+        .tech-icon {
+            background-color: var(--card-background);
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .tech-icon img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #008f75;
+            transform: translateY(-2px);
+        }
+
+        .team-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+
+        footer {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 3rem 0;
+            margin-top: 4rem;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            transition: opacity 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            opacity: 0.8;
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                padding: 100px 0 50px;
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .grid-2, .grid-4 {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .footer-links {
+                margin-top: 1rem;
+            }
+
+            .footer-links a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <img src="https://via.placeholder.com/50" alt="Logo Semillero de Robótica" width="50" height="50">
+            <ul>
+                <li><a href="#actividades">Actividades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#tecnologias">Tecnologías</a></li>
+                <li><a href="#equipo">Equipo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div class="container hero-content">
+            <h1>Semillero de Robótica</h1>
+            <p>Innovación, Tecnología y Futuro en un solo lugar. Explora el fascinante mundo de la robótica con nosotros.</p>
+            <a href="#" class="button">Descubre Más</a>
+            <img src="https://github.com/TadeoRoboticsGroup/.github/raw/main/img/semillero/background-black.jpg" alt="Semillero de Robótica" class="hero-image">
+        </div>
+    </div>
+
+    <main class="container">
+        <section id="actividades">
+            <h2>Nuestras Actividades</h2>
+            <div class="grid grid-2">
+                <div class="card">
+                    <h3>Talleres de Construcción de Robots</h3>
+                    <p>Aprende a construir robots utilizando kits de robótica, materiales simples y piezas recicladas. Desarrolla habilidades prácticas en mecánica y electrónica.</p>
+                </div>
+                <div class="card">
+                    <h3>Programación de Robots</h3>
+                    <p>Domina lenguajes de programación como Python y C++ para dar vida a tus creaciones robóticas. Implementa algoritmos de control y comportamientos autónomos.</p>
+                </div>
+                <div class="card">
+                    <h3>Competencias de Robots</h3>
+                    <p>Participa en emocionantes competiciones donde tus robots enfrentarán desafíos de navegación, manipulación y resolución de problemas en tiempo real.</p>
+                </div>
+                <div class="card">
+                    <h3>Proyectos de Investigación</h3>
+                    <p>Colabora en proyectos de vanguardia en áreas como inteligencia artificial, visión por computadora y sistemas de control avanzados aplicados a la robótica.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <h2>Nuestros Proyectos</h2>
+            <div class="grid grid-2">
+                <div class="card">
+                    <h3>Robots RC por Bluetooth</h3>
+                    <img src="https://github.com/TadeoRoboticsGroup/.github/raw/main/img/semillero/teleoperado.gif" alt="Robots RC por Bluetooth">
+                    <p>Diseño y construcción de robots controlados remotamente mediante tecnología Bluetooth, explorando la comunicación inalámbrica y el control en tiempo real.</p>
+                </div>
+                <div class="card">
+                    <h3>Apps con App Inventor</h3>
+                    <img src="https://github.com/TadeoRoboticsGroup/.github/raw/main/img/semillero/siro.gif" alt="Apps con App Inventor">
+                    <p>Desarrollo de aplicaciones móviles intuitivas para el control de robots, utilizando la plataforma App Inventor para crear interfaces de usuario amigables.</p>
+                </div>
+                <div class="card">
+                    <h3>Proyectos con Processing, Arduino y Java</h3>
+                    <img src="https://github.com/TadeoRoboticsGroup/.github/raw/main/img/semillero/carrera.gif" alt="Proyectos con Processing, Arduino y Java">
+                    <p>Creación de interfaces gráficas interactivas y sistemas de control robótico utilizando Processing, Arduino y Java, integrando hardware y software.</p>
+                </div>
+                <div class="card">
+                    <h3>Robot Autónomo con ROS2</h3>
+                    <img src="https://github.com/TadeoRoboticsGroup/.github/raw/main/img/semillero/simulacion.gif" alt="Robot Autónomo con ROS2">
+                    <p>Implementación de un robot autónomo utilizando ROS2 para SLAM (Localización y Mapeo Simultáneos) y navegación autónoma en entornos dinámicos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="tecnologias">
+            <h2>Tecnologías que Utilizamos</h2>
+            <div class="grid grid-4">
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <img src="https://github.com/devicons/devicon/raw/master/icons/ros/ros-original-wordmark.svg" alt="ROS">
+                    </div>
+                    <p>ROS</p>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <img src="https://github.com/devicons/devicon/raw/master/icons/raspberrypi/raspberrypi-original.svg" alt="Raspberry Pi">
+                    </div>
+                    <p>Raspberry Pi</p>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <img src="https://github.com/devicons/devicon/raw/master/icons/python/python-original.svg" alt="Python">
+                    </div>
+                    <p>Python</p>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <img src="https://github.com/devicons/devicon/raw/master/icons/arduino/arduino-original.svg" alt="Arduino">
+                    </div>
+                    <p>Arduino</p>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <img src="https://github.com/devicons/devicon/raw/master/icons/matlab/matlab-original.svg" alt="MATLAB">
+                    </div>
+                    <p>MATLAB</p>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <img src="https://github.com/devicons/devicon/raw/master/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow">
+                    </div>
+                    <p>TensorFlow</p>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <img src="https://github.com/devicons/devicon/raw/master/icons/opencv/opencv-original.svg" alt="OpenCV">
+                    </div>
+                    <p>OpenCV</p>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <img src="https://github.com/devicons/devicon/raw/master/icons/blender/blender-original.svg" alt="Blender">
+                    </div>
+                    <p>Blender</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="equipo">
+            <h2>Nuestro Equipo de Robotistas</h2>
+            <img src="https://github.com/TadeoRoboticsGroup/.github/raw/main/img/semillero/team2.jpg" alt="Equipo de Robotistas" class="team-image">
+            <p>Nuestro equipo está formado por estudiantes apasionados y mentores expertos, unidos por el amor a la robótica y la innovación tecnológica. Juntos, estamos construyendo el futuro de la automatización y la inteligencia artificial.</p>
+        </section>
+
+        <section>
+            <h2>¿Listo para Unirte a la Revolución Robótica?</h2>
+            <p>Si te apasiona la tecnología y quieres ser parte de la próxima generación de innovadores en robótica, ¡este es tu lugar!</p>
+            <a href="#" class="button">Únete al Semillero</a>
+        </section>
+
+        <section>
+            <h2>Apoya Nuestro Proyecto</h2>
+            <p>Tu apoyo nos ayuda a seguir innovando y creando tecnologías que cambiarán el mundo. Cada contribución cuenta.</p>
+            <a href="https://buymeacoff.ee" class="button">Invítanos un café</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <h3>Semillero de Robótica UTADEO</h3>
+                    <p>Innovación y tecnología al servicio del futuro</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://github.com">GitHub</a>
+                    <a href="#">Contacto</a>
+                    <a href="#">Política de Privacidad</a>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 2rem;">
+                <p>© 2023 Semillero de Robótica UTADEO. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
